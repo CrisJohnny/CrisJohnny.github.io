@@ -317,7 +317,7 @@ hr {
 }
 blockquote {
   padding: 0 15px;
-  color: #666;
+  color: #ddd;
   border-left: 4px solid #ddd;
 }
 blockquote cite::before {
@@ -1060,6 +1060,10 @@ pre .javascript .function {
 .comments {
   margin: 60px 20px 0;
 }
+.comments .vwrap {
+  background-color: #fff;
+  color: #000;
+}
 .tag-cloud {
   text-align: center;
 }
@@ -1108,7 +1112,7 @@ pre .javascript .function {
 }
 #header {
   background-image: url("../images/bgImg1.jpg");
-  background-size: 100% 1024px;
+  background-size: 1366px 1024px;
 }
 .headband {
   height: 0px;
@@ -1128,7 +1132,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #0ff;
-  background: #222;
+  background: rgba(0,0,0,0);
   border-bottom: none;
 }
 .brand:hover {
@@ -1144,7 +1148,7 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 50px;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -1270,7 +1274,7 @@ pre .javascript .function {
 .use-motion .post-block,
 .use-motion .pagination,
 .use-motion .comments {
-  opacity: 0;
+  opacity: 1;
 }
 .use-motion .post-header {
   opacity: 0;
@@ -1433,7 +1437,7 @@ pre .javascript .function {
   transition-property: background;
 }
 .posts-collapse .post-header:hover {
-  border-bottom-color: #666;
+  border-bottom-color: #ddd;
 }
 .posts-collapse .post-header:hover::before {
   background: #222;
@@ -1443,6 +1447,7 @@ pre .javascript .function {
   font-size: 12px;
   left: 20px;
   top: 5px;
+  text-align: left;
 }
 .posts-collapse .post-comments-count {
   display: none;
@@ -1458,7 +1463,7 @@ pre .javascript .function {
   opacity: 0.6;
 }
 .posts-collapse .post-title a {
-  color: #666;
+  color: #ddd;
   border-bottom: none;
 }
 .page-home .post-type-quote .post-header,
@@ -1468,7 +1473,7 @@ pre .javascript .function {
   display: none;
 }
 .posts-expand .post-title {
-  text-align: center;
+  text-align: left;
   word-break: break-word;
   font-weight: 400;
 }
@@ -1506,15 +1511,18 @@ pre .javascript .function {
   -o-transform: scaleX(1);
   transform: scaleX(1);
 }
+.posts-expand .post-title-link:hover {
+  color: #0ff;
+}
 .posts-expand .post-title-link .fa {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 0px 0 0px 0px;
   color: #eee;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
-  text-align: center;
+  text-align: left;
 }
 .posts-expand .post-meta .post-category-list {
   display: inline-block;
@@ -1624,8 +1632,8 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 80px auto 60px;
-  width: 8%;
-  height: 1px;
+  width: 0%;
+  height: 0px;
   background: #ccc;
   text-align: center;
 }
@@ -1837,7 +1845,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #06444d;
+  background: #0f20a7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1898,7 +1906,7 @@ pre .javascript .function {
 }
 .post-toc-empty {
   font-size: 14px;
-  color: #666;
+  color: #ddd;
 }
 .post-toc-wrap {
   overflow: hidden;
