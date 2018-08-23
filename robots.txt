@@ -12,4 +12,3 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://crisjohnny.github.io/sitemap.xml
-Sitemap: https://crisjohnny.github.io/baidusitemap.xml
